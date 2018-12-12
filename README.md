@@ -57,17 +57,53 @@ To do this, the website will have 6 pages: Home, Bios, Gallery, Discography, Vid
     An event guide, show the bands upcoming events (dates and venues). Also a link to allow fans to
     sign up the bands newsletter, allowing them to keep up to date with the news on the band.
 
+### Future Features...
+- Adding to the Discorgraphy
+- Adding to the Gallery
+- Adding/updating the Evetns page
+- Adding more social network platrorms
+- Adding a Fan Page (where fans can post comments/photos about the bands gigs they were at)
+- Adding a forum for fans? (maybe band members can get involved and answer fans questions!)
+
 ## Technologies used
 
+- style.css (../stlye.css)
+
+    My own style sheet for the project
+          
 - Bootstrap (https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
 
-Bootstrap is used in this project to help with the structure and layout of the website pages.
+    Bootstrap is used in this project to help with the structure and layout of the website pages.
 
 - Hover.CSS (found at www.cdnjs.com)
 
-Hover.CSS command library is used to add effects the the menu buttons.
+    Hover.CSS command library is used to add effects the the menu buttons.
 
 - Fonts (https://fonts.google.com)
 
-Fonts used are from Google fonts.
+    Fonts used in this project are from Google fonts.
+
+## Testing
+
+...to be done!
+
+## Deployment
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+
+Different values for environment variables (Heroku Config Vars)?
+Different configuration files?
+Separate git branch?
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+## Credits
+
+### Content
+The text for section Y was copied from the Wikipedia article Z
+### Media
+The photos used in this site were obtained from ...
+
+### Acknowledgements
+I received inspiration for this project from X
 

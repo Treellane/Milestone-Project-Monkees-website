@@ -56,13 +56,22 @@
     min-height: 100px;
 }
 
-.hvr-rectangle-out {
+.hvr-radial-out {
     background-color: white;
 }
 
-.hvr-rectangle-out:before {   /*Still not sure what the 'before' commmand is doing here! Gotta find that out!!!*/
+.hvr-radial-out:before {   /*Still not sure what the 'before' commmand is doing here! Gotta find that out!!!*/
     background: rgba(255, 0, 0, 0.8);
+    color: black;
     height: 100px;
+    transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    -webkit-transition: all 0.9s ease-in-out;
+}
+
+.hvr-radial-out:hover {
+    color: black;       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! */
 }
 
 
