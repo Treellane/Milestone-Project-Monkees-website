@@ -1,0 +1,66 @@
+/* website font: font-family: 'KoHo', sans-serif; */
+
+
+/*------------------------------------------HEADER----------------------------*/
+
+#nav {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-title: {
+    height: 100px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-title a {
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    background: url("../images/monkees-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    min-height: 192px;
+}
+
+.hvr-rectangle-out {
+    background-color: white;
+}
+
+.hvr-rectangle-out:before {
+    background: rgba(255, 0, 0, 0.8);
+    height: 100px;
+}
+
+
+
+
+/*------------------------------------------SECTION----------------------------*/
+
+
+
+
+
+/*------------------------------------------FOOTER----------------------------*/
