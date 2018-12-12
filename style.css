@@ -61,7 +61,7 @@
 }
 
 .hvr-radial-out:before {   /*Still not sure what the 'before' commmand is doing here! Gotta find that out!!!*/
-    background: rgba(255, 0, 0, 0.8);
+    background: rgba(255, 0, 0, 0.9);
     color: black;
     height: 100px;
     transition: all 0.9s ease-in-out;
@@ -86,3 +86,22 @@
 
 
 /*------------------------------------------FOOTER----------------------------*/
+
+.footer-banner {
+    height: 100px;
+    width: 100%;
+    background-color: #e63636;
+    
+}
+
+.logo-3 {
+    margin: 0;
+    padding: 0;
+    background: url("../images/monkees-guitar-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    min-height: 100px;
+    
+}
