@@ -45,14 +45,27 @@
     min-height: 192px;
 }
 
+.logo-2 {
+    margin: 0;
+    padding: 0;
+    background: url("../images/monkees-guitar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    min-height: 100px;
+}
+
 .hvr-rectangle-out {
     background-color: white;
 }
 
-.hvr-rectangle-out:before {
+.hvr-rectangle-out:before {   /*Still not sure what the 'before' commmand is doing here! Gotta find that out!!!*/
     background: rgba(255, 0, 0, 0.8);
     height: 100px;
 }
+
+
 
 
 
