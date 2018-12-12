@@ -81,22 +81,59 @@
 
 /*------------------------------------------SECTION----------------------------*/
 
+/*-------------------------------------CONTACT FORM----------------------------*/
+
+.contact-blurb {
+    font-family: 'KoHo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.center-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.contact-form .btn {
+    height: 40px;
+    width: 180px;
+    background-color: black;
+    border-color: black;
+}
+
+.contact-form .btn:hover {
+    background-color: red;
+    border-color: red;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
 
 
 
 
 /*------------------------------------------FOOTER----------------------------*/
 
+.container-fluid {
+    padding: 0;
+}
+
 .footer-banner {
     height: 100px;
     width: 100%;
     background-color: #e63636;
+    margin: 0;
+    padding: 0;
     
 }
 
 .logo-3 {
     margin: 0;
-    padding: 0;
+    padding-left: 120px;
+    padding-right: 120px;
     background: url("../images/monkees-guitar-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -105,3 +142,65 @@
     min-height: 100px;
     
 }
+
+.book-us-text {
+    padding-top: 20px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.book-us-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-us-text a i {
+    padding-left: 5px;
+}
+
+.book-us-text a:hover {
+    color: black;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.social-link-text {
+    font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+footer .social-links li a i {
+    width: 44px;
+    height: 44px;
+    padding-left: 14px;
+    padding-top: 16px;
+    margin-left: 35px;
+    border-radius: 20%;
+    font-size: 24px;
+    line-height: 10px;
+    text-align: left;
+    color: white;
+    background: black;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}  
+
+footer .social-links li a i:hover {
+    background: white;
+    color: red;
+}
+
+  
