@@ -139,6 +139,41 @@
     border: white;
 }
 
+/*-------------------------------------DISCOGRAPHY-----------------------------*/
+
+.album-container {
+    padding-top: 45px;
+}
+
+.album-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.album-details {
+    text-align: left;
+}
+
+.album img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album-title {
+    margin-top: 0;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.album-year {
+     font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #6f5c5c;
+}
 
 /*-------------------------------------CONTACT FORM----------------------------*/
 
