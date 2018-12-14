@@ -71,17 +71,18 @@
 }
 
 .hvr-radial-out:hover {
-    color: black;       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! */
+    color: black;       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! lol */
 }
 
+/*------------------------------------------SECTION----------------------------*/
 
 /*----------------------------------------HOME PAGE----------------------------*/
 
 .about-section {
     padding: 35px;
-    padding-left: 25px;
-    padding-right: 15px;
-    padding-bottom: 30px;
+    padding-left: 28px;
+    padding-right: 18px;
+    padding-bottom: 10px;
 }
 
 .about-header {
@@ -102,18 +103,32 @@
 }
 
 .home-page-image img {
-    padding-top: 35px;
+    padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.about-section .btn {
+    height: 23px;
+    line-height: 0.9;
+    font-size: 13px;
+    color: white;
+    background-color: #d55443;
+    border: white;
+    margin-left: 10px;
+}
+
+.about-section .btn:hover {
+    color: white;
+    background-color: black;
+    border: black;
 }
 
 
 
-/*------------------------------------------SECTION----------------------------*/
+
 
 /*--------------------------------------BIOGRAPHIES----------------------------*/
 
@@ -130,6 +145,7 @@
 
 .bio-image {
     padding: 0;
+    padding-top: 30px;
 }
 .bio-container .bio-image img {
     display: block;
@@ -168,7 +184,7 @@
 }
 
 .bio-section .btn:hover {
-     color: white;
+    color: white;
     background-color: black;
     border: white;
 }
