@@ -226,10 +226,37 @@
 }
 
 .album-details .btn:hover {
-     color: white;
+    color: white;
     background-color: black;
     border: white;
 }
+
+/*------------------------------------------GALLERY----------------------------*/
+
+.gallery-page {
+    padding: 45px;
+    padding-top: 0px;
+}
+
+.gallery-headings h3 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    padding-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.gallery-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+
 
 /*-------------------------------------CONTACT FORM----------------------------*/
 
