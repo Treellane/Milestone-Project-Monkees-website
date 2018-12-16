@@ -74,9 +74,8 @@
     color: black;       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! lol */
 }
 
-/*------------------------------------------SECTION----------------------------*/
 
-/*----------------------------------------HOME PAGE----------------------------*/
+/*--------------------------------------------HOME-----------------------------*/
 
 .about-section {
     padding: 35px;
@@ -117,7 +116,8 @@
     color: white;
     background-color: #d55443;
     border: white;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
 }
 
 .about-section .btn:hover {
@@ -133,12 +133,12 @@
 /*--------------------------------------BIOGRAPHIES----------------------------*/
 
 .bio-section {
-    padding-right: 15px;
+    padding: 0px;
 }
 
 .bio-container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -167,6 +167,7 @@
     font-size: 20px;
     color: #6f5c5c;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .bio-text {
@@ -238,9 +239,9 @@
     padding-top: 0px;
 }
 
-.gallery-headings h3 {
+.gallery-heading {
     font-family: 'KoHo', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
     letter-spacing: 3px;
     padding-top: 35px;
@@ -255,8 +256,124 @@
     padding-top: 20px;
 }
 
+/*------------------------------------------VIDEOS-----------------------------*/
+
+.video-page {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.video-page-title {
+    font-family: 'KoHo', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 35px;
+    margin-left: 55px;
+    margin-bottom: 0;
+}
+
+.video-page-sub-title {
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 55px;
+    margin-bottom: 0;
+}
+
+.video-row {
+    padding: 15px;
+}
+
+/*------------------------------------------TIMELINE---------------------------*/
 
 
+
+/*-------------------------------------------EVENTS----------------------------*/
+
+.events-page {
+    padding: 30px;
+}
+
+.events-page-title {
+    font-family: 'KoHo', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    margin-left: 55px;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+.events-page-text {
+    font-family: 'KoHo', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 55px;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+.panel {
+    margin-bottom: 10px;
+}
+.panel-body {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.event-date {
+    font-family: 'KoHo', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+.event-venue {
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    line-height: 2.1;
+}
+
+.event-button .btn {
+    float: none;
+    height: 26;
+    line-height: 1.3;
+    font-size: 13px;
+    color: white;
+    background-color: #d55443;
+    border: white;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.event-button .btn:hover {
+    color: white;
+    background-color: black;
+    border: black;
+}
+
+.event-button-2 .btn {
+    float: none;
+    height: 26;
+    line-height: 1.3;
+    font-size: 13px;
+    color: white;
+    background-color: #d554435e; /* Extra 5e gives the transparant look! */
+    border: white;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
 
 /*-------------------------------------CONTACT FORM----------------------------*/
 
@@ -400,8 +517,19 @@ footer .social-links li a i:hover {
     text-decoration: none;
     letter-spacing: 0px;
     }
-
 }
+
+@media (max-width: 818px) {
+    .event-date {
+        font-size: 20px;
+    }
+    .event-venue {
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 2.3;
+    }
+}    
+
 
 @media (max-width: 592px) {
     .footer-banner {
