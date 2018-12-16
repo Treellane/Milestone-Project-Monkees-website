@@ -403,7 +403,7 @@
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -13px;
 }
 
 /* The actual content */
@@ -415,6 +415,15 @@
   font-size: 16px;
   font-weight: 300;
 }
+
+.timeline-container .row {
+    margin: 0;
+}
+
+.timeline-container .content img {
+    margin-top: 5px;
+}
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
