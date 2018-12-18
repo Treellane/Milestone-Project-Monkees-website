@@ -86,10 +86,11 @@
 
 .about-header {
     font-family: "KoHo", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 34px;
     color: black;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .about-text {
@@ -132,8 +133,8 @@
 
 /*--------------------------------------BIOGRAPHIES----------------------------*/
 
-.bio-section {
-    padding: 0px;
+.bio-page {
+    padding: 20px;
 }
 
 .bio-container {
@@ -240,10 +241,11 @@
 }
 
 .gallery-heading {
-    font-family: 'KoHo', sans-serif;
-    font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 3px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: black;
+    letter-spacing: 1px;
     padding-top: 35px;
     margin-left: 35px;
     margin-bottom: 0;
@@ -264,12 +266,13 @@
 }
 
 .video-page-title {
-    font-family: 'KoHo', sans-serif;
-    font-size: 28px;
+    font-family: "KoHo", sans-serif;
     font-weight: 400;
+    font-size: 34px;
+    color: black;
+    text-align: center;
     letter-spacing: 1px;
     padding-top: 35px;
-    margin-left: 55px;
     margin-bottom: 0;
 }
 
@@ -277,8 +280,13 @@
     font-family: 'KoHo', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    margin-left: 55px;
+    text-align: center;
     margin-bottom: 0;
+}
+
+.youtube-link {
+    color: #e63636;
+    font-weight: 400;
 }
 
 .video-row {
@@ -294,21 +302,25 @@
 
 .timeline-page-heading {
     padding: 0;
-    text-align: center;
     font-family: 'KoHo', sans-serif;
     letter-spacing: 1px;
 }
 
 .timeline-title {
-    font-size: 28px;
+    font-family: "KoHo", sans-serif;
     font-weight: 400;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .timeline-sub-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    
 }
 
 /*-----------------------------ACTUAL TIMELINE CODE (FROM W3schools) ----------*/
@@ -384,7 +396,7 @@
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #ff000036;
+  border-color: transparent transparent transparent #faff003d;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -398,7 +410,7 @@
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #ff000036 transparent transparent;
+  border-color: transparent #faff003d transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -409,7 +421,7 @@
 /* The actual content */
 .content {
   padding: 10px 30px;
-  background-color: #ff000036;
+  background-color: #faff003d;
   position: relative;
   border-radius: 6px;
   font-size: 16px;
@@ -465,23 +477,24 @@
 }
 
 .events-page-title {
-    font-family: 'KoHo', sans-serif;
-    font-size: 38px;
+    font-family: "KoHo", sans-serif;
     font-weight: 400;
-    letter-spacing: 2px;
-    padding-top: 30px;
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
     margin-left: 55px;
     margin-bottom: 0;
-    line-height: 2;
 }
 
 .events-page-text {
     font-family: 'KoHo', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
+    text-align: center;
     margin-left: 55px;
     margin-bottom: 0;
-    line-height: 2;
+    line-height: 1;
 }
 
 .panel {
