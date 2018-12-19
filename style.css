@@ -472,7 +472,76 @@
 
 /*--------------------------------------------NEWS-----------------------------*/
 
+.news-page {
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.logo-3 {
+    margin: 0;
+    padding: 0;
+    background: url("../images/monkees-guitar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    min-height: 200px;
+}
+
+.news-block {
+    padding: 20px;
+}
+
+.news-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-top: 0;
+}
+
+.news-section {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.news-text {
+    font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.signup-block {
+    border: groove black 16px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 35px;
+}
+
+.signup-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+}
+
+.signup-text {
+    font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: black;
+}
+
+.signup-block .btn:hover {
+    color: white;
+    background-color: black;
+    border: white;
+}
 
 /*-------------------------------------------EVENTS----------------------------*/
 
