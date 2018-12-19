@@ -13,30 +13,8 @@
     padding: 0;
 }
 
-.menu-title: {
-    height: 100px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-title a {
-    padding-top: 30px;
-    width: 100%;
-    height: 100px;
-    font-family: "KoHo", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: black;
-    display: block;
-    text-align: left;
-    padding-left: 50px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    background: url("../images/monkees-guitar.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.2;   
+.menu-header {
+    padding: 20px 25px 0;
 }
 
 .logo {
@@ -47,18 +25,37 @@
     background-position: center;
     background-size: contain;
     height: 200px;
-    min-height: 192px;
+    min-height: 200px;
 }
 
 .logo-2 {
     margin: 0;
     padding: 0;
-    background: url("../images/monkees-guitar.jpg");
+    background: url("../images/monkees-guitar-circle.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    height: 200px;
+    min-height: 200px;
+}
+
+.menu-title: {
     height: 100px;
-    min-height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-title a {
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    width: 100%;
+    height: 100px;
+    color: black;
+    display: block;
 }
 
 .hvr-radial-out {
@@ -67,23 +64,25 @@
 
 .hvr-radial-out:before {   /*Still not sure what the 'before' commmand is doing here! Gotta find that out!!!*/
     background: rgba(255, 0, 0, 0.9);
-    color: black;
     height: 100px;
-    transition: all 0.9s ease-in-out;
+    transition: all 0.8s ease-in-out;
     -moz-transition: all 0.9s ease-in-out;
     -o-transition: all 0.9s ease-in-out;
     -webkit-transition: all 0.9s ease-in-out;
 }
 
 .hvr-radial-out:hover {
-    color: black;       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! lol */
-}
+    color: black;
+}       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! lol */
 
 
 /*--------------------------------------------HOME-----------------------------*/
 
+.home-page-section {
+    padding-top: 10px;
+}
+
 .about-section {
-    padding: 35px;
     padding-left: 28px;
     padding-right: 18px;
     padding-bottom: 10px;
@@ -108,7 +107,7 @@
 }
 
 .home-page-image img {
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
@@ -132,177 +131,11 @@
     border: black;
 }
 
-
-
-
-
-/*--------------------------------------BIOGRAPHIES----------------------------*/
-
-.bio-page {
-    padding: 20px;
-}
-
-.bio-container {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.bio-image {
-    padding: 0;
-    padding-top: 30px;
-}
-.bio-container .bio-image img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bio-title {
-    font-family: "KoHo", sans-serif;
-    font-weight: 600;
-    font-size: 38px;
-    color: black;
-    text-align: center;
-}
-
-.bio-sub-title {
-     font-family: "KoHo", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #6f5c5c;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.bio-text {
-    font-family: "KoHo", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: black;
-    text-align: justify;
-}
-
-.bio-section .btn {
-    color: white;
-    background-color: #d55443;
-    border: white;
-}
-
-.bio-section .btn:hover {
-    color: white;
-    background-color: black;
-    border: white;
-}
-
-/*-------------------------------------DISCOGRAPHY-----------------------------*/
-
-.album-container {
-    padding-top: 45px;
-}
-
-.album-row {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.album-details {
-    text-align: left;
-}
-
-.album img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.album-title {
-    margin-top: 0;
-    font-family: "KoHo", sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    color: black;
-}
-
-.album-year {
-     font-family: "KoHo", sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #6f5c5c;
-}
-
-.album-details .btn:hover {
-    color: white;
-    background-color: black;
-    border: white;
-}
-
-/*------------------------------------------GALLERY----------------------------*/
-
-.gallery-page {
-    padding: 45px;
-    padding-top: 0px;
-}
-
-.gallery-heading {
-    font-family: "KoHo", sans-serif;
-    font-weight: 400;
-    font-size: 34px;
-    color: black;
-    letter-spacing: 1px;
-    padding-top: 35px;
-    margin-left: 35px;
-    margin-bottom: 0;
-}
-
-.gallery-section img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-}
-
-/*------------------------------------------VIDEOS-----------------------------*/
-
-.video-page {
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
-
-.video-page-title {
-    font-family: "KoHo", sans-serif;
-    font-weight: 400;
-    font-size: 34px;
-    color: black;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 35px;
-    margin-bottom: 0;
-}
-
-.video-page-sub-title {
-    font-family: 'KoHo', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.youtube-link {
-    color: #e63636;
-    font-weight: 400;
-}
-
-.video-row {
-    padding: 15px;
-}
-
 /*------------------------------------TIMELINE - PAGE TEXT---------------------*/
 
 .timeline-page {
     padding: 30px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .timeline-page-heading {
@@ -475,10 +308,177 @@
   }
 }
 
+/*-------------------------------------DISCOGRAPHY-----------------------------*/
+
+.album-container {
+    padding-top: 45px;
+}
+
+.album-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.album-details {
+    text-align: left;
+}
+
+.album img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album-title {
+    margin-top: 0;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.album-year {
+     font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #6f5c5c;
+}
+
+.album-details .btn:hover {
+    color: white;
+    background-color: black;
+    border: white;
+}
+
+/*------------------------------------------GALLERY----------------------------*/
+
+.gallery-page {
+    padding: 45px;
+    padding-top: 0px;
+}
+
+.gallery-heading {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: black;
+    letter-spacing: 1px;
+    padding-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.gallery-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+/*------------------------------------------VIDEOS-----------------------------*/
+
+.video-page {
+    padding-bottom: 40px;
+}
+
+.video-page-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.video-page-sub-title {
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.youtube-link {
+    color: #e63636;
+    font-weight: 400;
+}
+
+.video-row {
+    padding: 15px;
+}
+
+
+/*--------------------------------------BIOGRAPHIES----------------------------*/
+
+.bio-page {
+    padding: 20px;
+}
+
+.bio-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bio-image {
+    padding: 0;
+    padding-top: 30px;
+}
+.bio-container .bio-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: black;
+    text-align: center;
+}
+
+.bio-sub-title {
+     font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #6f5c5c;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.bio-text {
+    font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.bio-section .btn {
+    color: white;
+    background-color: #d55443;
+    border: white;
+}
+
+.bio-section .btn:hover {
+    color: white;
+    background-color: black;
+    border: white;
+}
+
+/*--------------------------------------------NEWS-----------------------------*/
+
+
+
 /*-------------------------------------------EVENTS----------------------------*/
 
 .events-page {
     padding: 30px;
+    padding-top: 0;
 }
 
 .events-page-title {
