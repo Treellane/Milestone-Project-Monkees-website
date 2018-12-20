@@ -75,6 +75,11 @@
     color: black;
 }       /*Keeps the menu-title black after the hover.css activates :) this took ages to figure out! lol */
 
+.menu-hr { 
+  height: 1px;
+  background-color: red;
+}
+
 
 /*--------------------------------------------HOME-----------------------------*/
 
@@ -473,9 +478,27 @@
 /*--------------------------------------------NEWS-----------------------------*/
 
 .news-page {
-    padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.news-page-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.news-page-sub-title {
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .logo-3 {
@@ -502,9 +525,10 @@
     margin-top: 0;
 }
 
-.news-section {
+.news-block .news-section {
     padding-left: 30px;
     padding-right: 20px;
+    padding-top: 4px;
 }
 
 .news-text {
@@ -515,8 +539,13 @@
     text-align: justify;
 }
 
+.news-text a {
+    color: red;
+    font-weight: 400;
+}
+
 .signup-block {
-    border: groove black 16px;
+    border: double black 16px;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -542,6 +571,26 @@
     background-color: black;
     border: white;
 }
+
+/*--------------------------------------NEWS MODAL-----------------------------*/
+
+
+
+    .modal .modal-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: black; 
+    text-align: center;
+} 
+
+    .modal .modal-sub-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black; 
+    text-align: center;
+} 
 
 /*-------------------------------------------EVENTS----------------------------*/
 
