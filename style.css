@@ -802,6 +802,32 @@ footer .social-links li a i:hover {
     color: red;
 }
 
+/*--------------------------------------ERROR PAGE----------------------------*/
+
+.box {
+    height: 400px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border: double black 10px;
+    text-align: center;
+}
+
+.error-title {
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: red;
+}
+
+.error-text {
+    font-family: "KoHo", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
 
 /*------------------------------------MEDIA QUERIES---------------------------*/
 
