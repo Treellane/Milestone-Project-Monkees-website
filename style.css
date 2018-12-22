@@ -20,7 +20,7 @@
 .logo {
     margin: 0;
     padding: 0;
-    background: url("../images/monkees-logo.jpg");
+    background: url("images/monkees-logo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -31,7 +31,7 @@
 .logo-2 {
     margin: 0;
     padding: 0;
-    background: url("../images/monkees-guitar-circle.jpg");
+    background: url("images/monkees-guitar-circle.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
