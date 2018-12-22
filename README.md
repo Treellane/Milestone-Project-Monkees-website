@@ -137,6 +137,11 @@ One my home page (index.html) I used "%" to resize the images when the browser w
 These show up as error in the code validator, but without them, my images acpect ratio went wrong when the browser
 window changed size - with them, my images appeared and re-sized as I wanted them; So I left the "%" in the code!!!
 
+##### </img>
+If I remember correctly, <img> is refered to as 'self-closing'... but in the Cloud9 snippets you are given a </img>
+as well as the opening <img> !!! This closing tag shows as an error in Validator.w3.org, but as it is being added
+by Cloud9 I left it in! 
+
 ##### Menu
 The original idea for the main menu was to split it either side of a centerally placed logo, but 
 at smaller screen sizes it did not look great (with half the menu above and half below the logo). So this 
