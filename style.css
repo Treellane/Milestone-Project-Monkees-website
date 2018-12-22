@@ -678,7 +678,7 @@
     border: white;
     margin-top: 8px;
     margin-bottom: 0px;
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 .event-button .btn:hover {
