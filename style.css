@@ -151,8 +151,8 @@
 
 .timeline-title {
     font-family: "KoHo", sans-serif;
-    font-weight: 400;
-    font-size: 34px;
+    font-weight: 700;
+    font-size: 32px;
     color: black;
     text-align: center;
     letter-spacing: 1px;
@@ -174,7 +174,16 @@
 
 .timeline-section {
   background-color: white;
- font-family: 'KoHo', sans-serif;
+  font-family: 'KoHo', sans-serif;
+}
+
+.timeline-year {
+    text-align: left;
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 3px;
 }
 
 /* The actual timeline (the vertical ruler) */

@@ -1,30 +1,34 @@
 # Milestone Project - The Monkees website
 
-This is the website (frontend) for the band The Monkees.
+This is the website (frontend) for the band The Monkees. The site is ment to be  a portal to the band; for
+fans to listen to the bands music and get more information on them, and for event orginisers to contact 
+the band regrading bookingv them for events. 
 
 the website will include...:
 - video clips from the bands back cataloge and new material
 - bio's of the band members
 - a timeline of the band career path
-- The Monkees discography
--  a gallery
--  an events page 
--  links to the bands social media accounts (Facebook, Twitter and Youtube)
--  contact information so potential clients can contact the band regarding book them for events
--  a sign up feature the keep fans up to date with news of the band via email
+- a discography
+- a gallery
+- an events page 
+- links to the bands social media accounts (Facebook, Twitter and Youtube)
+- contact form so potential clients can contact the band regarding book them for events
+- news page; with a sign up feature the keep fans up to date with news of the band via email
 
 
 ## User Experience
 
-The website is for fans of the band - to help them find out more about the band (through videos, bios and discography) 
-and for potential clients (event orginisers) who want the hire/book the band for events so they can get a feel for who the band are and their music.
+The website is for fans of the band - to help them find out more about the band (through upcoming event info, 
+events videos, bios and discography) and for potential clients (event orginisers) who want the hire/book 
+the band for events so they can get a feel for who the band are and their music.
 
 ### Example: 
 - For a fan, they might want the check for upcoming event dates to see where and when the band 
-  will be performing; the Events page will help them achieve this - fans can also sign up for news updates here!
+  will be performing; the Events page will help them achieve this. The fans can also use the News page to see
+  any information redrading event announcments (they can also sign up for news updates here!)
 - Also for fans, they want to check out the bands album catalogue, 
-  to see when albums they don't have, and possibly buy them; the discograpghy page with help here
-- A fan might also like to download photos of the band; the Gallery page.
+  to see what albums they don't have, and be able to follow links to buy them; the discograpghy page with help here.
+- A fan might also like to download photos of the band; the Gallery page will fit the bill.
 
 - As an event orginiser, looking to book the band for a gig; the Bio page will help the user learn more 
   about the band, the Video page will give them a taste of their music, and the contact form will allow 
@@ -37,7 +41,8 @@ A mockup of the site layout was done in Balsamiq (ADD LINK!!!)
 
 ## Features
 
-To do this, the website will have 6 pages: Home, Bios, Gallery, Discography, Videos and Events.
+This website will have 9 pages: Home, Biographies, Gallery, Discography, Videos, News, Timeline,
+and Events. Also a Contact page (accessed via the footer)
 
 - Home 
     The home page. This page will have an 'About the Band' section with some photos, and a link
@@ -45,27 +50,35 @@ To do this, the website will have 6 pages: Home, Bios, Gallery, Discography, Vid
     header and footer (the header with the band logo and menu bar, the footer with a link to
     the bands social media accounts and an contact form for event bookings).
 - Bios 
-    Brief biographys of the band members, wit ha link to an external sites from more 
+    Brief biographys of the band members, with a link to external sites for more 
     detailed bio information. 
 - Gallery
     Images of the band and band members.
 - Discography
     The bands album catalogue, with links to external sites to purchase/download the music.
 - Videos
-    Video links to a selection of te bands bands hits and new material.
+    Video links to a selection of the bands bands hits and new material.
+-News 
+    This is a page for news related to the band: announcments of gig dates, tv appearances/interviews etc.
+- Timeline
+    This page will give a timeline of the main events of the bands history through the years.
 - Events
     An event guide, show the bands upcoming events (dates and venues). Also a link to allow fans to
     sign up the bands newsletter, allowing them to keep up to date with the news on the band.
+- Contact 
+    This page is to allow users to contact the band regarding event bookings.
 
 ### Future Features...
-- Adding to the Discorgraphy
-- Adding to the Gallery
-- Adding/updating the Evetns page
-- Adding more social network platrorms
+- Adding more social network platrorms!
 - Adding a Fan Page (where fans can post comments/photos about the bands gigs they were at)
-- Adding a forum for fans? (maybe band members can get involved and answer fans questions!)
+- Adding a forum for fans, a place where likeminded fans can get together  (maybe band members
+  can get involved and answer fans questions in scheduled Q and A sessions!)
 
 ## Technologies used
+
+- Balsamiq
+
+    Balsamiq was used to do mock up layours of the sites pages.
 
 - style.css (../stlye.css)
 
@@ -82,28 +95,65 @@ To do this, the website will have 6 pages: Home, Bios, Gallery, Discography, Vid
 - Fonts (https://fonts.google.com)
 
     Fonts used in this project are from Google fonts.
+    
+- jQuery (https://code.jquery.com/jquery-3.3.1.min.js) 
+
+    This was recommend to be added to the bottom of your code in a Code Institute tutorial.
+    May not be totally necessary for this site, but it is added for completness.
+
+- JavaScript (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
+
+    This was recommend to be added to the bottom of your code in a Code Institute tutorial. 
+    (I believe this makes the modal on the News Page work!)
 
 ## Testing
 
-...to be done!
+Testing was mainly a case of checking/clicking all the links on all the pages to see if they worked and 
+they took you to were they were ment to.
+
+(all links work except the Purchase/Download music links which do not take you anywhere as the project is
+only supposed to be a front-end only project!)
+
+Also tested was the responsivemenss of the different pages; this was tested by simply opening each page and 
+resizing the browser window.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Development started by scribbling layout ideas on paper.
+This then progressed to a more formal layout in Balsamiq.
+From there, coding in Cloud 9 started. 
+During the process, regualr saves/uploads were made to GitHub (as suggested by Code Institute as being good coding practice).
+During this stage, ideas for extra website pages were coded straight into the Cloud9 (bypassing Balsamiq).
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### Version Differences
+The main difference between the deployed version and the development version is that the original page menu had one logo
+in the center with a menu at each side, and the final version has the menu in the center and logos on each side.
+
+Also, extra pages were added from the original website idea (Timeline News, and Events).
 
 ## Credits
 
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+All text content was written my me (David Kelly), 
+with some being an edited/arranged version of text from Wikipedia.
+
 ### Media
-The photos used in this site were obtained from ...
+All video links are copeid from Youtube.
+
+All biography and Discography links are taken from Wikipedia.
+
+Some images were provided by Code Institute. All other photos were taken from Google, 
+except for the studio album images which were taken from Wikipedia, and the 
+'sold-out' News page image, with was taken from Google and edited my me (David Kelly).
 
 ### Acknowledgements
-I received inspiration for this project from X
+
+A thank you to Code Institute for re-introducing me to my childhood through The Monkees!
+
+Some elements were inspired by coding from the 'Whiskey Website' from a Code Institute tutorial video.  
+
+Timeline layout/code on the TImeline page taken from a W3Schools sample code.
+
+Thank you to The Monkees for the memories. Davy Jones, RIP.
+
 
