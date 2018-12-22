@@ -78,7 +78,7 @@ and Events. Also a Contact page (accessed via the footer)
 
 - Balsamiq
 
-    Balsamiq was used to do mock up layours of the sites pages.
+    Balsamiq was used to do mock up layovers of the sites pages.
 
 - style.css (../stlye.css)
 
@@ -106,6 +106,12 @@ and Events. Also a Contact page (accessed via the footer)
     This was recommend to be added to the bottom of your code in a Code Institute tutorial. 
     (I believe this makes the modal on the News Page work!)
 
+- GitHub (https://github.com/Treellane/Milestone-Project-Monkees-website)
+
+  GitHub was used to backup the project along the way, as suggested by Code Institute as a
+  good habit to get in ot! 
+    
+     
 ## Testing
 
 Testing was mainly a case of checking/clicking all the links on all the pages to see if they worked and 
@@ -116,6 +122,32 @@ only supposed to be a front-end only project!)
 
 Also tested was the responsivemenss of the different pages; this was tested by simply opening each page and 
 resizing the browser window.
+
+### Testing Issues
+
+There was quiet a few issues to begin with, which one by hope got sorted!
+##### Menu
+The original idea for the main menu was to split it either side of a centerally placed logo, but 
+at smaller screen sizes it did not look great (with half the menu above and half below the logo). So this 
+layout idea was drapped in favor of a left-placed logo and one longer menu bar to the right.
+
+Also with the Menu, getting the side images to position well was the different sizes (and for one to disappear
+when the screen got too small) wsa something that needed to be looked at.
+
+##### Videos
+Getting the videos ion the Video Page to resize took time to figure out, but eventually I got there. 
+Puttting them in iframes instead of divs helped! (i'd forgotten about iframes!). Simple really!
+
+##### Bootstrap columns
+This is the first time I coded unsupervised (ie: not had a Code Inst. video tutorial to follow), so I spent
+a lot of time playing around with the bootstrap column codes (eg: col-sm-9, hidden-xs) to try to get the layout
+looking good at different screensizes; but in time, I got layouts at small screen sizes that I was happy with.
+
+##### Timeline
+Getting the timeline to look good when resized smaller took some time too. This was mainly just a case of 
+tweeking the padding around the timeline and the outer divs, as well as, again, playing around with the 
+bootstrap column sizes.
+
 
 ## Deployment
 
@@ -140,7 +172,7 @@ with some being an edited/arranged version of text from Wikipedia.
 ### Media
 All video links are copeid from Youtube.
 
-All biography and Discography links are taken from Wikipedia.
+All Biography and Discography links are taken from Wikipedia.
 
 Some images were provided by Code Institute. All other photos were taken from Google, 
 except for the studio album images which were taken from Wikipedia, and the 
@@ -152,7 +184,7 @@ A thank you to Code Institute for re-introducing me to my childhood through The 
 
 Some elements were inspired by coding from the 'Whiskey Website' from a Code Institute tutorial video.  
 
-Timeline layout/code on the TImeline page taken from a W3Schools sample code.
+Timeline layout/code on the Timeline page taken from a W3Schools sample code.
 
 Thank you to The Monkees for the memories. Davy Jones, RIP.
 
