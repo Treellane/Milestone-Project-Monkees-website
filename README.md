@@ -155,11 +155,12 @@ bootstrap column sizes.
 
 ## Deployment
 
-Development started by scribbling layout ideas on paper.
-This then progressed to a more formal layout in Balsamiq.
-From there, coding in Cloud 9 started. 
+The code was written in CLoud9 and saved to GitHub.
 During the process, regualr saves/uploads were made to GitHub (as suggested by Code Institute as being good coding practice).
 During this stage, ideas for extra website pages were coded straight into the Cloud9 (bypassing Balsamiq).
+In GitHub, within the settings menu, the site was launched on GitHub Pages by selecting the appropriate setting.
+At this point the site appear active, but images are not visable!!! 
+
 
 ### Version Differences
 The main difference between the deployed version and the development version is that the original page menu had one logo
