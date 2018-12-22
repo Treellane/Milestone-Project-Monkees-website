@@ -142,6 +142,10 @@ If I remember correctly, <img> is refered to as 'self-closing'... but in the Clo
 as well as the opening <img> !!! This closing tag shows as an error in Validator.w3.org, but as it is being added
 by Cloud9 I left it in! 
 
+##### border/background colors!
+When testing my CSS code in jigsaw.w3.org, the colors #faff003d and #d554435e show up as an error for border and 
+background colour! Not sure why this is?!! It displays properly and is a code snippet taken from w3schools.com.
+
 ##### Menu
 The original idea for the main menu was to split it either side of a centerally placed logo, but 
 at smaller screen sizes it did not look great (with half the menu above and half below the logo). So this 
@@ -172,6 +176,15 @@ During the process, regualr saves/uploads were made to GitHub (as suggested by C
 During this stage, ideas for extra website pages were coded straight into the Cloud9 (bypassing Balsamiq).
 In GitHub, within the settings menu, the site was launched on GitHub Pages by selecting the appropriate setting.
 At this point the site appear active, but images are not visable!!! 
+
+The image issue was solid (with help from a Slack user) - the images all had a '/' at the start od the file path; this
+was removed and all the images now load correctly.
+
+A lo of minor alterations were made to the code while doing a walk-though of the "Student Project Pre-Submission Checklist".
+These code alterations were made in stages, mainly page by page, and uploaded to GitHub; so hopefully they are now all 
+added to the deployed version of the project.
+
+The project coding started 10 days ago, and now on December 22nd, it is finished, and will be submitted within the hour.
 
 
 ### Version Differences

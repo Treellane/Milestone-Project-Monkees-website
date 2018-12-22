@@ -39,7 +39,7 @@
     min-height: 200px;
 }
 
-.menu-title: {
+.menu-title {
     height: 100px;
     padding: 0;
     margin: 0;
@@ -670,7 +670,7 @@
 
 .event-button .btn {
     float: none;
-    height: 26;
+    height: 26px;
     line-height: 1.3;
     font-size: 13px;
     color: white;
@@ -689,7 +689,7 @@
 
 .event-button-2 .btn {
     float: none;
-    height: 26;
+    height: 26px;
     line-height: 1.3;
     font-size: 13px;
     color: white;
@@ -909,7 +909,7 @@ footer .social-links li a i:hover {
     
     .event-button .btn {
     float: none;
-    height: 20;
+    height: 20px;
     line-height: 1.3;
     font-size: 10px;
     color: white;
@@ -922,7 +922,7 @@ footer .social-links li a i:hover {
 
     .event-button-2 .btn {
     float: none;
-    height: 20;
+    height: 20px;
     line-height: 1.3;
     font-size: 9px;
     color: white;
