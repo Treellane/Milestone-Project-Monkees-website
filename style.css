@@ -330,7 +330,7 @@
 
 .album-row {
     padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .album-details {
@@ -347,7 +347,7 @@
     margin-top: 0;
     font-family: "KoHo", sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     color: black;
 }
 
@@ -359,7 +359,7 @@
 }
 
 .album-details .btn {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .album-details .btn:hover {
