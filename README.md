@@ -37,7 +37,9 @@ the band for events so they can get a feel for who the band are and their music.
 
 ## Mockups
 
-A mockup of the site layout was done in Balsamiq (ADD LINK!!!) 
+A mockup of the site layout was done in Balsamiq.
+The mockups themsleves are in a directory called 'Balsamiq Mockups' in the project itself and .png files.
+(I hope they are uploaded/saved correctly as I have not tried this before!!!)
 
 ## Features
 
