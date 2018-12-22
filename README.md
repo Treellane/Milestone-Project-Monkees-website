@@ -112,6 +112,8 @@ and Events. Also a Contact page (accessed via the footer)
 
   GitHub was used to backup the project along the way, as suggested by Code Institute as a
   good habit to get in ot! 
+  
+  Git deployment address : https://treellane.github.io/Milestone-Project-Monkees-website/
     
      
 ## Testing
