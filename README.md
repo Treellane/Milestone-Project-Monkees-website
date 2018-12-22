@@ -130,6 +130,13 @@ resizing the browser window.
 ### Testing Issues
 
 There was quiet a few issues to begin with, which one by hope got sorted!
+
+###### Errors in validatiing code (on validator.w3.org) but it works?!?!
+One my home page (index.html) I used "%" to resize the images when the browser window changes size.
+(Eg: <img src="images/home-page/home1.jpg" height=45% width=100% alt="monkees on chairs"></img>)
+These show up as error in the code validator, but without them, my images acpect ratio went wrong when the browser
+window changed size - with them, my images appeared and re-sized as I wanted them; So I left the "%" in the code!!!
+
 ##### Menu
 The original idea for the main menu was to split it either side of a centerally placed logo, but 
 at smaller screen sizes it did not look great (with half the menu above and half below the logo). So this 
